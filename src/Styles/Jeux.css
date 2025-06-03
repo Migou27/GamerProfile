@@ -3,6 +3,44 @@
   src: url('../../public/fonts/ttyd.ttf') format('truetype');
 }
 
+.selectReact {
+  font-family: 'ttyd';
+  color: black;
+  width: 80%;
+}
+
+.middleText {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  height: 3.5rem;
+}
+
+.upRight {
+  position: absolute;
+  z-index: 1;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+.upRight1 {
+  position: absolute;
+  z-index: 1;
+  right: 0.5rem;
+  top: 6rem;
+}
+
+.texte {
+  font-family: 'ttyd';
+}
+
+.texte-2 {
+  font-family: 'ttyd';
+  font-size: 0.65rem;
+}
+
 .liste-jeux {
   padding: 20px;
 }
@@ -83,16 +121,6 @@
 }
 
 .game-console {
-  display: inline-block;
-  background-color: #2563eb;
-  color: white;
-  padding: 0.15rem 0.4rem;
-  border-radius: 0.25rem;
-  font-size: 0.75rem;
-  margin-right: 0.5rem;
-}
-
-.game-year {
   display: inline-block;
   background-color: #2563eb;
   color: white;
